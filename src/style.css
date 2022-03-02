@@ -1,0 +1,69 @@
+.bgcolormaindiv{
+    background-color:blueviolet;
+    height: 100vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+.divofloginform{
+background-color: white;
+height: 90vh;
+border-radius: 10px;
+border: 2px solid black;
+position: absolute;
+top: 5px;
+left: 5px;
+right: 5px;
+bottom: 5px;
+}
+.pictextdiv{
+    position: absolute;
+    background-color: blueviolet;
+    border: 2px solid red;
+    height: 40vh;
+    width: 99%;
+    top: 2px;
+    left: 2px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* background-image: url(./images/bgimage.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    
+}
+.pictextdiv p {
+margin-left: 100px;
+margin-top: 100px;
+font-weight: bolder;    
+}
+/* .reactbgimage{
+    background-image: url(./images/bgimage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+
+} */
+.divofsignform{
+    position: absolute;
+    background-color: aliceblue ;
+    border: 2px solid palegreen;
+    margin-left: 700px;
+    width: 25%;
+    height: 70vh;
+    top:20px;
+    border-radius: 5px  ;
+    
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.divofcards{
+    position: absolute;
+}
+
